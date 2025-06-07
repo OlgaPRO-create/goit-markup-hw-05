@@ -492,7 +492,16 @@ list-style: none;
 .footer-icon-item {
   width: 40px;
   height: 40px;
-  
+}
+
+.footer-subtitle {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  min-width: 165px;
 }
 
 .footer-icon-link {
@@ -504,7 +513,6 @@ list-style: none;
  justify-content: center;
  align-items: center;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
 }
 
  .footer-right {
@@ -516,8 +524,7 @@ list-style: none;
 }
 
 .footer-icon {
-  fill: #f4f4fd;
-  min-width: 165px;
+  fill: #f4f4fd; 
 }
 
 .footer-icon-link:hover,
@@ -551,7 +558,7 @@ list-style: none;
    z-index: 100;
 }
 
-.backdrop.is open{
+.backdrop.is-open {
   opacity: 1;
   visibility: hidden;
   pointer-events: none;
@@ -605,8 +612,8 @@ list-style: none;
   fill: #ffffff;
 }
 
-.modal-close:hover .modal-close-icon,
-.modal-close:focus .modal-close-icon {
+.modal-close:hover .icon-close,
+.modal-close:focus .icon-close {
   fill: #ffffff;
 }
 
@@ -621,7 +628,7 @@ list-style: none;
 }
 
 .modal-form .form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -663,7 +670,7 @@ list-style: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus + .form-icon {
+.form-input-wrapper:focus-within .form-icon {
   fill: #4D5AE5;
 }
 
