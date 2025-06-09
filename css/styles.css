@@ -787,17 +787,11 @@ margin-bottom: 24px;
 }
 
  
-
    /* Subscribe footer */
 
    .footer-subscribe {
-  display: flex;
-  max-width: 453px;
-  flex-direction: column;
-  gap: 16px;
   margin-left: auto;
-  align-items: flex-start;
-}
+   }
 
 .footer-substitle {
   margin: 0;
